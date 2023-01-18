@@ -8,16 +8,16 @@ public class switchstring {
     public static void main(String[] args) throws IOException {
         BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
         System.out.println("day");
-        String text = br.readLine();
+        String text = (br.readLine());
         switch (text){
-            case "Tuesday":
+            case "T":
                 System.out.println("k's birthday");
                 break;
             case "Sunday":
                 System.out.println("l's birthday");
                 break;
             default:
-                System.out.println("other wise go to hell");
+                System.out.println("other wise invalid");
         }
 
     }
